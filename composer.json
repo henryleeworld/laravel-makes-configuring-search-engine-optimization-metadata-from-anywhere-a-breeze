@@ -7,7 +7,7 @@
     "require": {
         "php": "^8.2",
         "honeystone/laravel-seo": "^1.2",
-        "laravel/framework": "^11.13",
+        "laravel/framework": "^11.14",
         "laravel/tinker": "^2.9"
     },
     "require-dev": {
