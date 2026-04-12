@@ -1,4 +1,4 @@
-# Laravel 11 輕鬆從任何地方設定搜尋引擎最佳化（SEO）中繼資料
+# Laravel 12 輕鬆從任何地方設定搜尋引擎最佳化（SEO）中繼資料
 
 引入 honeystone 的 laravel-seo 套件來擴增輕鬆從任何地方設定搜尋引擎最佳化中繼資料，不僅讓使用者更容易理解網頁的主要內容，同時也讓搜尋引擎的爬蟲能夠更有效地解析和索引網站資訊。
 
@@ -16,11 +16,15 @@ $ composer install
 ```sh
 $ php artisan key:generate
 ```
+- 執行 __Artisan__ 指令的 __migrate__ 來執行所有未完成的遷移。
+```sh
+$ php artisan migrate
+```
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
 - 你可以經由 `/` 來進行歡迎頁面瀏覽。
 
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/EkPT0p9.png)
+![](https://i.imgur.com/YO6zmEu.png)
 > 提升了網站內容的組織性，也為網站帶來了更多的機會，讓其在競爭激烈的網路世界中脫穎而出
